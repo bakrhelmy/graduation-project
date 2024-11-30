@@ -1,0 +1,33 @@
+body {
+    background-color: #1f1c2d;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  label{
+    color: white;
+  }
+  form {
+    width: 40%;
+    background-color: #f0f0f03b;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    form {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 556px) {
+    form {
+      width: 80%;
+    }
+  }
+  .bbbb{
+    font-weight: 700;
+    color: white;
+    background-color:#0ea9d6 ;
+  }
